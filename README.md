@@ -1,7 +1,7 @@
 ![banner](assets/ai.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/aruryss/CodeGirlSummer2023Analytics)
-![GitHub repo size](https://img.shields.io/github/repo-size/aruryss/CodeGirlSummer2023Analytics)
+![GitHub last commit](https://img.shields.io/github/last-commit/aruryss/ai-movie-character-support)
+![GitHub repo size](https://img.shields.io/github/repo-size/aruryss/ai-movie-character-support)
 
 # AI Fictional Character Support Website
 ### Get encouraging message from your favourite movie/tv show/drama characters

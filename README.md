@@ -1,4 +1,4 @@
-![banner](assets/cgs.png)
+![banner](assets/ai.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/aruryss/CodeGirlSummer2023Analytics)
 ![GitHub repo size](https://img.shields.io/github/repo-size/aruryss/CodeGirlSummer2023Analytics)

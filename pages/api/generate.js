@@ -13,7 +13,7 @@ const generateAction = async (req, res) => {
         model: 'gpt-3.5-turbo-instruct',
         prompt: `${basePromptPrefix}${req.body.userInput}\n`,
         temperature: 0.8,
-        max_tokens: 200,
+        max_tokens: 250,
     });
     //console.log(baseCompletion['choices'][0]['text'])
     const basePromptOutput = baseCompletion['choices'][0]['text'];

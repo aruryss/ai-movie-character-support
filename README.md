@@ -14,8 +14,6 @@
 ## Table of Contents
 
   - [Tech Stack](#tech-stack)
-  - [Technical challenges](#technical-challenges)
-  - [Assumptions and Limitations](#assumptions--limitations)
   - [How to run website locally](#How-to-run-website-locally)
   - [Future Improvements](#Future-Improvements)
   - [Repository structure](#Repository-structure)
@@ -27,19 +25,32 @@ I created a website that generates encouraging messages from your favourite movi
 - HTML5
 - CSS3
 - OpenAI API
-## Technical challenges
-
-- 
-
-## Assumptions & Limitations
-
-
 
 ## How to run website locally
 
-## Future Improvements
+1. Clone repository to your machine
 
+_Prerequisites:_
+- Git Bash
 
+Open Git Bash and redirect to the folder you want to clone this project to. Using ``` git clone ``` copy repository into specified folder:
+```
+cd YOUR_PATH_TO_FOLDER
+git clone https://github.com/aruryss/ai-movie-character-support.git
+```
+
+2. Open command line in the folder specified earlier and run website locally
+_Prerequisites:_
+- Next JS
+- React
+- Yarn
+
+```
+cd YOUR_PATH_TO_FOLDER
+yarn dev
+```
+
+This will give you access to the website hosted locally through http://localhost:3000/
 ## Repository structure
 
 

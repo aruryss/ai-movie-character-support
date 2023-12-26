@@ -40,17 +40,25 @@ git clone https://github.com/aruryss/ai-movie-character-support.git
 ```
 
 2. Open command line in the folder specified earlier and run website locally
+
 _Prerequisites:_
 - Next JS
 - React
 - Yarn
+- OpenAI API Key
 
 ```
 cd YOUR_PATH_TO_FOLDER
 yarn dev
 ```
 
-This will give you access to the website hosted locally through http://localhost:3000/
+Next, you need to create ```.env``` file in your repository with the following code:
+```
+OPENAI_API_KEY= YOUR_API_KEY_HERE
+```
+For that you will need an API key of your own. Create one here: https://platform.openai.com/api-keys. Save it, as you won't be able to copy it after completion of creation.
+
+At the end, this will give you access to the website hosted locally through http://localhost:3000/
 ## Repository structure
 
 
@@ -58,18 +66,19 @@ This will give you access to the website hosted locally through http://localhost
 
 ├── assets
 │   ├── ai.png                                    <- banner used in the README.
-│   ├── acceptance-rates.png                      <- acceptance rate per educational institution plot used in the README.
-│   ├── applications-timeline.png                 <- applications per day coming from Instagram plot used in the README.
-│   ├── influencer-heat-map.png                   <- influencer metrics correlation heat map used in the README.
-│   ├── track-rates.png                           <- acceptance rate per learning track plot used in the README.
-│   ├── applicants-heat-map.png                   <- applicant attributes correlation heat map used in the README.
-│   ├── participants-heat-map.png                 <- participant attributes correlation heat map used in the README.
+│   ├── buildspace-logo.png                       <- logo of buildspace used in the website
 │
-├── datasets
-│   ├── influencer.csv                    <- the dataset with Instagram Influencer profile information.
-│   ├── participants.csv                  <- the dataset with participant information.
-│   ├── registered.csv                    <- the dataset with applicant information.
+├── pages
+│   ├── _app.js                                   <- react app.
+│   ├── _document.js                              <- original website document.
+│   ├── index.js                                  <- main page of the website.
+│   ├── styles.css                                <- css document will all style components used in the website.
+│   ├── api                                
+    │   ├── generate.js                           <- "backend" that calls API and returns generated message.
 │
-│
+├── public
+│   ├── favicon.ico                               <- website favicon.
+│   ├── vercel.svg                                <- vercel logo.
+|
 ├── README.md                                     <- this readme file.
 ```
